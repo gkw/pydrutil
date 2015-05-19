@@ -1,11 +1,13 @@
+
+...under development...
+
 # pydrutil
 Mac OS X drutil command wrapper in python
 
 Mac OS X
 
-#drutil atip
- Vendor   Product           Rev
- HL-DT-ST DVDRW  GX30N      RP09
+execute("drutil","atip) returns
 
-    No media, please insert a CD to read its TOC/ATIP.
+{'output': ['Vendor   Product           Rev', 'HL-DT-ST DVDRW  GX30N      RP09', '', 'No media, please insert a CD to read its TOC/ATIP.', ''], 'command': 'drutil', 'returnVal': 0, 'param': 'atip'}
 
+...under development...
