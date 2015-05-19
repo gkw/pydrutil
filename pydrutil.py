@@ -1,6 +1,6 @@
 import subprocess
 
-def run(command, param):
+def execute(command, param):
 
   outputj = {}
   output = []
@@ -17,4 +17,4 @@ def run(command, param):
 params = ['atip', 'eject','burn']
 
 for p in params:
-  print run("drutil",p)
+  print execute("drutil",p)
